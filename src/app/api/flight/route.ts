@@ -19,4 +19,3 @@ export async function GET() {
     return NextResponse.json({ error: 'Failed to fetch flight data' }, { status: 500 });
   }
 }
-

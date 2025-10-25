@@ -71,4 +71,3 @@ export function WeatherCard({ weather }: WeatherCardProps) {
     </div>
   );
 }
-

@@ -93,4 +93,3 @@ function StatCard({ label, value, unit, icon }: StatCardProps) {
     </div>
   );
 }
-

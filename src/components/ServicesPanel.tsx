@@ -84,4 +84,3 @@ export function ServicesPanel({ services }: ServicesPanelProps) {
     </div>
   );
 }
-

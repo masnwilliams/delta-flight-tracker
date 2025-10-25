@@ -114,4 +114,3 @@ export function FlightMap({ flight }: FlightMapProps) {
     </div>
   );
 }
-
