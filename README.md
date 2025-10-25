@@ -1,12 +1,14 @@
 # ✈️ Delta Flight Tracker
 
-A real-time flight tracking dashboard that connects to Delta Air Lines' in-flight WiFi API to display live flight information, weather, and available services.
+A beautiful real-time flight tracking dashboard displaying live flight information, interactive maps, weather, and in-flight services.
+
+> **⚠️ Important:** This app only works when connected to Delta WiFi during a flight. The APIs are only accessible from the in-flight network.
 
 ## Features
 
 - **Live Flight Stats**: Real-time altitude, speed, heading, ETA, and more
-- **Interactive Flight Map**: Canvas-based visualization of your flight path
-- **Destination Weather**: Current conditions and 5-day forecast
+- **Interactive Flight Map**: Leaflet-based map with flight path and live aircraft position
+- **Destination Weather**: Current conditions and 5-day forecast with temperature conversion
 - **Service Status**: Monitor available in-flight services
 - **Auto-refresh**: Updates every 5 seconds automatically
 
@@ -36,7 +38,8 @@ The app uses Next.js 16 with:
 - Server-side API routes to proxy Delta's WiFi APIs
 - Client-side components for real-time updates
 - Tailwind CSS for styling
-- Canvas API for flight path visualization
+- Leaflet & React Leaflet for interactive maps
+- Dynamic imports for optimal client-side rendering
 
 ### Available APIs
 
@@ -50,14 +53,14 @@ The app uses Next.js 16 with:
 - Data is provided by Delta's in-flight entertainment system
 - Only works while connected to Delta WiFi
 
-## Screenshots
+## What You'll See
 
-The dashboard shows:
+The dashboard displays:
 - Flight number, phase, and aircraft details
 - Current altitude, speed, and heading
 - Distance and time remaining
-- Interactive map with flight path
-- Destination weather and forecast
-- Available service status
+- Interactive Leaflet map with real flight path and aircraft position
+- Destination weather with Celsius/Fahrenheit conversion
+- Live in-flight service status
 
 Enjoy your flight! 🛫
