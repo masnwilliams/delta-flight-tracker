@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///Users/mason/GitHub/delta-flight-tracker/src/app/api/services/route.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\n\nexport async function GET() {\n  try {\n    const response = await fetch('https://wifi.delta.com/api/services', {\n      headers: {\n        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',\n        'Accept': 'application/json, text/plain, */*',\n      },\n    });\n\n    if (!response.ok) {\n      return NextResponse.json({ error: 'Failed to fetch services data' }, { status: 500 });\n    }\n\n    const data = await response.json();\n    return NextResponse.json(data);\n  } catch (error) {\n    return NextResponse.json({ error: 'Failed to fetch services data' }, { status: 500 });\n  }\n}\n\n"],"names":[],"mappings":";;;;AAAA;;AAEO,eAAe;IACpB,IAAI;QACF,MAAM,WAAW,MAAM,MAAM,uCAAuC;YAClE,SAAS;gBACP,cAAc;gBACd,UAAU;YACZ;QACF;QAEA,IAAI,CAAC,SAAS,EAAE,EAAE;YAChB,OAAO,gJAAY,CAAC,IAAI,CAAC;gBAAE,OAAO;YAAgC,GAAG;gBAAE,QAAQ;YAAI;QACrF;QAEA,MAAM,OAAO,MAAM,SAAS,IAAI;QAChC,OAAO,gJAAY,CAAC,IAAI,CAAC;IAC3B,EAAE,OAAO,OAAO;QACd,OAAO,gJAAY,CAAC,IAAI,CAAC;YAAE,OAAO;QAAgC,GAAG;YAAE,QAAQ;QAAI;IACrF;AACF","debugId":null}}]
-}

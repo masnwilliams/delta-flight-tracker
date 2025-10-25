@@ -1,8 +1,0 @@
-{
-  "/_global-error/page": "app/_global-error/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/flight/route": "app/api/flight/route.js",
-  "/api/services/route": "app/api/services/route.js",
-  "/api/weather/route": "app/api/weather/route.js",
-  "/page": "app/page.js"
-}

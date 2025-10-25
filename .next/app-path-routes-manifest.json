@@ -1,8 +1,0 @@
-{
-  "/_global-error/page": "/_global-error",
-  "/_not-found/page": "/_not-found",
-  "/api/flight/route": "/api/flight",
-  "/api/services/route": "/api/services",
-  "/api/weather/route": "/api/weather",
-  "/page": "/"
-}
