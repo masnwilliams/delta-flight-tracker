@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@layer base {
+  body {
+    background: linear-gradient(to bottom right, rgb(15 23 42), rgb(30 58 138), rgb(15 23 42));
+    color: rgb(255 255 255);
+    min-height: 100vh;
+  }
+}
+

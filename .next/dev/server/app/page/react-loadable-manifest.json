@@ -1,0 +1,11 @@
+{
+  "[project]/src/components/FlightMap.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/FlightMap.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_7c8b9be1._.js",
+      "static/chunks/src_components_FlightMap_tsx_93df99bd._.js",
+      "static/chunks/node_modules_leaflet_dist_leaflet_ef5f0413.css",
+      "static/chunks/src_components_FlightMap_tsx_635385be._.js"
+    ]
+  }
+}
